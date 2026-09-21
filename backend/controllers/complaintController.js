@@ -8,7 +8,7 @@ const Complaint = require("../models/Complaint");
 const predictCategory = async (text) => {
   try {
     const response = await fetch(
-      "http://127.0.0.1:5001/predict",
+  "https://campuscare-ai-nv1h.onrender.com/predict",
       {
         method: "POST",
 
