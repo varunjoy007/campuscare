@@ -1,0 +1,245 @@
+text,category
+Wi-Fi is not working in my classroom,Internet / Wi-Fi
+The college internet is not working,Internet / Wi-Fi
+I cannot connect to campus Wi-Fi,Internet / Wi-Fi
+Campus Wi-Fi keeps disconnecting,Internet / Wi-Fi
+The internet connection is very slow,Internet / Wi-Fi
+Wi-Fi signal is weak in Block A,Internet / Wi-Fi
+Unable to access the college network,Internet / Wi-Fi
+Internet is unavailable in the computer lab,Internet / Wi-Fi
+The network connection drops frequently,Internet / Wi-Fi
+College Wi-Fi password is not working,Internet / Wi-Fi
+The classroom projector is not working,Infrastructure
+Broken benches are present in the classroom,Infrastructure
+The classroom door is damaged,Infrastructure
+There is water leakage in the classroom,Infrastructure
+The classroom ceiling needs repair,Infrastructure
+The classroom window is broken,Infrastructure
+The staircase railing is damaged,Infrastructure
+The college building has damaged walls,Infrastructure
+The laboratory furniture is damaged,Infrastructure
+The classroom projector screen is damaged,Infrastructure
+The classroom fan is not working,Electrical
+Lights are not working in the laboratory,Electrical
+There is a power problem in my classroom,Electrical
+Power supply is frequently interrupted,Electrical
+Electrical switch is damaged,Electrical
+The classroom tube light is not working,Electrical
+Several lights in the corridor are not working,Electrical
+The laboratory power socket is damaged,Electrical
+There is an electrical fault in the classroom,Electrical
+Power keeps going off in the building,Electrical
+My exam hall ticket is not available,Examination
+I cannot download my examination hall ticket,Examination
+There is an error in my exam registration,Examination
+My examination marks are incorrect,Examination
+The exam timetable has not been updated,Examination
+I have a problem with my examination application,Examination
+My exam seat number is missing,Examination
+I cannot see my examination schedule,Examination
+There is an issue with my exam results,Examination
+My internal examination marks are wrong,Examination
+I have an attendance issue,Academic
+My attendance has been entered incorrectly,Academic
+Faculty has not uploaded internal marks,Academic
+I cannot access my course materials,Academic
+I have a problem with subject registration,Academic
+I need clarification about my academic schedule,Academic
+My timetable has an academic error,Academic
+The faculty has not updated the assignment marks,Academic
+I cannot register for my subject,Academic
+I have a problem with my class timetable,Academic
+The library book I need is missing,Library
+The library computer is not working,Library
+I cannot renew my library book,Library
+The library is closed during college hours,Library
+My library account is not working,Library
+I cannot find a required book in the library,Library
+The library printer is not working,Library
+I have an issue returning a library book,Library
+The library computer has no internet,Library
+I cannot access the digital library,Library
+Hostel room water supply is not working,Hostel
+There is a problem with my hostel room,Hostel
+The hostel fan is not working,Hostel
+The hostel bathroom needs maintenance,Hostel
+My hostel room light is not working,Hostel
+There is water leakage in the hostel,Hostel
+The hostel room door is damaged,Hostel
+Hostel drinking water is unavailable,Hostel
+My hostel room needs electrical repair,Hostel
+There is a maintenance issue in my hostel,Hostel
+Food quality in the canteen is poor,Canteen
+The canteen drinking water is not available,Canteen
+There is a long queue in the college canteen,Canteen
+The canteen seating area is dirty,Canteen
+Canteen food is served late,Canteen
+The food in the canteen is not fresh,Canteen
+The canteen is overcrowded during lunch,Canteen
+There are not enough seats in the canteen,Canteen
+The canteen menu is not available,Canteen
+I have a complaint about canteen food,Canteen
+The college bus arrived very late,Transport
+The college bus did not arrive,Transport
+The bus route information is incorrect,Transport
+The college bus is overcrowded,Transport
+I have a problem with my transport pass,Transport
+The college bus driver did not follow the route,Transport
+The bus schedule is not updated,Transport
+There are not enough college buses,Transport
+The college bus is not maintained properly,Transport
+The college bus service is unreliable,Transport
+Garbage is not being collected,Cleanliness
+The college washroom is not clean,Cleanliness
+The classroom needs cleaning,Cleanliness
+The corridor is dirty,Cleanliness
+The campus garbage bins are overflowing,Cleanliness
+The laboratory is not cleaned properly,Cleanliness
+The washroom has a bad smell,Cleanliness
+Garbage is scattered near the classroom,Cleanliness
+The hostel corridor is dirty,Cleanliness
+The campus needs better cleaning,Cleanliness
+The security guard is not available at the gate,Security
+An unauthorized person entered the campus,Security
+The security camera is not working,Security
+I lost my student ID card on campus,Security
+The college gate security is not checking IDs,Security
+There is a security problem near the parking area,Security
+The CCTV camera is damaged,Security
+I found a suspicious person on campus,Security
+The security gate is not monitored properly,Security
+I have a complaint about campus security,Security
+The classroom fan has stopped working,Electrical
+The ceiling fan is making a strange noise,Electrical
+The light in my classroom is flickering,Electrical
+The laboratory switch is not working,Electrical
+The electrical socket in the classroom is damaged,Electrical
+There is no electricity in the laboratory,Electrical
+The corridor lights are not working,Electrical
+The classroom power supply keeps failing,Electrical
+The computer lab has an electrical problem,Electrical
+The classroom tube light needs replacement,Electrical
+The classroom floor is very dirty,Cleanliness
+The washroom floor is not clean,Cleanliness
+Dust has accumulated in the classroom,Cleanliness
+The laboratory floor needs cleaning,Cleanliness
+Garbage has not been collected from the corridor,Cleanliness
+The college washroom is unhygienic,Cleanliness
+The classroom has too much dust,Cleanliness
+The garbage bin near the classroom is overflowing,Cleanliness
+The hostel common area needs cleaning,Cleanliness
+The corridor has not been cleaned properly,Cleanliness
+I am unable to register for my subjects,Academic
+My course registration is not updated,Academic
+The syllabus for my subject is not available,Academic
+The faculty has not shared the assignment details,Academic
+My internal marks are not updated,Academic
+There is an issue with my attendance record,Academic
+The classroom timetable has changed incorrectly,Academic
+The food served in the canteen is cold,Canteen
+The canteen food quality is poor,Canteen
+There are not enough tables in the canteen,Canteen
+The drinking water in the canteen is not available,Canteen
+The canteen staff are not maintaining cleanliness,Canteen
+The food menu is not displayed properly,Canteen
+The canteen counter is taking too long,Canteen
+The canteen needs more seating space,Canteen
+The food prices in the canteen are not displayed,Canteen
+The classroom floor has not been cleaned,Cleanliness
+The corridor is covered with dust,Cleanliness
+The college toilets are dirty,Cleanliness
+The washroom needs regular cleaning,Cleanliness
+The garbage bin is overflowing near the block,Cleanliness
+The classroom windows are dirty,Cleanliness
+There is garbage near the college entrance,Cleanliness
+The stairs are very dirty,Cleanliness
+The classroom has not been swept,Cleanliness
+Waste is lying near the parking area,Cleanliness
+The corridor garbage has not been removed,Cleanliness
+The college premises need better cleaning,Cleanliness
+Dust is accumulating on the classroom desks,Cleanliness
+The classroom ceiling fan is not rotating,Electrical
+The laboratory lights are not working,Electrical
+The classroom tube light is flickering,Electrical
+The power socket near my desk is damaged,Electrical
+The projector power supply is not working,Electrical
+There is a power failure in the computer lab,Electrical
+The corridor fan is not working,Electrical
+The classroom switchboard is damaged,Electrical
+The electrical switch in the laboratory is broken,Electrical
+The lights in the seminar hall are not working,Electrical
+The classroom fan makes a loud electrical noise,Electrical
+The power supply keeps going off in the laboratory,Electrical
+The electrical wiring in the classroom needs repair,Electrical
+The hostel room light is not working,Electrical
+The charging socket in the classroom is not working,Electrical
+My examination timetable has not been updated,Examination
+I cannot download my examination admit card,Examination
+My exam room number is missing,Examination
+I have not received my exam schedule,Examination
+My examination application is showing an error,Examination
+The exam seating arrangement is not displayed,Examination
+I cannot access my examination results,Examination
+There is a mistake in my exam registration details,Examination
+My hall ticket contains incorrect information,Examination
+The hostel room allocation is incorrect,Hostel
+My hostel room door lock is damaged,Hostel
+The hostel water supply is not available,Hostel
+The hostel room needs maintenance,Hostel
+My hostel room fan needs repair,Hostel
+The hostel room has a broken window,Hostel
+The hostel common room equipment is damaged,Hostel
+The hostel maintenance request is pending,Hostel
+My hostel room number is not showing,Hostel
+The hostel warden has not responded to my request,Hostel
+There is a water leakage in my hostel room,Hostel
+The hostel cupboard is damaged,Hostel
+The hostel bed needs repair,Hostel
+I have an issue with hostel room allocation,Hostel
+The classroom bench is broken,Infrastructure
+There is a crack in the classroom wall,Infrastructure
+The college building needs maintenance,Infrastructure
+The classroom windows need repair,Infrastructure
+The laboratory table is broken,Infrastructure
+The seminar hall chairs are damaged,Infrastructure
+The classroom board is damaged,Infrastructure
+The college parking area needs repair,Infrastructure
+The corridor ceiling has a damaged panel,Infrastructure
+The classroom door handle is broken,Infrastructure
+The college building has a structural maintenance issue,Infrastructure
+The Wi-Fi connection keeps disconnecting,Internet / Wi-Fi
+Internet speed is very slow in my classroom,Internet / Wi-Fi
+I cannot connect to the college Wi-Fi,Internet / Wi-Fi
+The Wi-Fi signal is weak in the laboratory,Internet / Wi-Fi
+The internet connection is unavailable in the library,Internet / Wi-Fi
+The campus Wi-Fi login is not working,Internet / Wi-Fi
+The internet stops working frequently,Internet / Wi-Fi
+The Wi-Fi network is not visible on my laptop,Internet / Wi-Fi
+The college internet connection is unstable,Internet / Wi-Fi
+The Wi-Fi speed is too slow for online classes,Internet / Wi-Fi
+My library account is not showing correctly,Library
+The library book issue system is not working,Library
+The library needs more study space,Library
+A required textbook is unavailable in the library,Library
+The library website is not showing book availability,Library
+My library book return status is incorrect,Library
+The library reading room needs more seating,Library
+The college entry gate security is not checking properly,Security
+The CCTV camera is not working,Security
+There is no security guard near the parking area,Security
+The visitor entry system is not working,Security
+The college gate remains open without security,Security
+The security camera near the block is damaged,Security
+My vehicle security issue has not been addressed,Security
+The security staff is unavailable at night,Security
+The emergency security system needs attention,Security
+The college bus is arriving late,Transport
+The college bus route has changed without notice,Transport
+The bus is overcrowded during college hours,Transport
+My bus pass is not working,Transport
+The college bus is not available today,Transport
+The bus driver is not following the scheduled route,Transport
+The transport timetable is not updated,Transport
+The bus stop information is incorrect,Transport
+The college bus needs maintenance,Transport
+There is no transport service for my route,Transport
