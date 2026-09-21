@@ -20,7 +20,7 @@ function AdminDashboard() {
         const token = localStorage.getItem("token");
 
         const response = await fetch(
-          "http://localhost:5000/api/complaints/admin/all",
+          "https://campuscare-waov.onrender.com/api/complaints/admin/all",
           {
             headers: {
               Authorization: `Bearer ${token}`,

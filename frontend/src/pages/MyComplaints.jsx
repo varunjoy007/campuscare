@@ -19,7 +19,7 @@ function MyComplaints() {
         }
 
         const response = await fetch(
-          `http://localhost:5000/api/complaints/student/${user.id}`,
+          `https://campuscare-waov.onrender.com/api/complaints/student/${user.id}`,
           {
             headers: {
               Authorization: `Bearer ${token}`,

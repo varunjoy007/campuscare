@@ -32,7 +32,7 @@ function AdminComplaintDetails() {
       }
 
       const response = await fetch(
-        `http://localhost:5000/api/complaints/${id}`,
+        `https://campuscare-waov.onrender.com/api/complaints/${id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -101,7 +101,7 @@ function AdminComplaintDetails() {
       }
 
       const response = await fetch(
-        `http://localhost:5000/api/complaints/${id}`,
+        `https://campuscare-waov.onrender.com/api/complaints/${id}`,
         {
           method: "PUT",
 
@@ -380,7 +380,7 @@ function AdminComplaintDetails() {
             <div className="admin-complaint-image-container">
 
               <img
-                src={`http://localhost:5000${complaint.image}`}
+                src={`https://campuscare-waov.onrender.com${complaint.image}`}
                 alt="Complaint evidence"
                 className="admin-complaint-image"
               />
