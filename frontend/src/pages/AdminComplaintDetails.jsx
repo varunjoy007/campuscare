@@ -380,7 +380,7 @@ function AdminComplaintDetails() {
             <div className="admin-complaint-image-container">
 
               <img
-                src={`https://campuscare-waov.onrender.com${complaint.image}`}
+                src={complaint.image}
                 alt="Complaint evidence"
                 className="admin-complaint-image"
               />

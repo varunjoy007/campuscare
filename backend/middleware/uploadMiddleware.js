@@ -1,51 +1,31 @@
 const multer = require("multer");
-const path = require("path");
-const fs = require("fs");
+const { CloudinaryStorage } = require("multer-storage-cloudinary");
+const cloudinary = require("cloudinary").v2;
 
 
 // ==========================================
-// UPLOAD DIRECTORY
+// CLOUDINARY CONFIGURATION
 // ==========================================
 
-const uploadPath = path.join(
-  __dirname,
-  "..",
-  "uploads"
-);
-
-
-// ==========================================
-// CREATE UPLOAD DIRECTORY
-// ==========================================
-
-if (!fs.existsSync(uploadPath)) {
-  fs.mkdirSync(uploadPath, {
-    recursive: true,
-  });
-}
+cloudinary.config({
+  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
+  api_key: process.env.CLOUDINARY_API_KEY,
+  api_secret: process.env.CLOUDINARY_API_SECRET,
+});
 
 
 // ==========================================
-// STORAGE
+// CLOUDINARY STORAGE
 // ==========================================
 
-const storage = multer.diskStorage({
+const storage = new CloudinaryStorage({
+  cloudinary: cloudinary,
 
-  destination: function (req, file, cb) {
-    cb(null, uploadPath);
+  params: {
+    folder: "campuscare",
+    allowed_formats: ["jpg", "jpeg", "png", "webp"],
+    resource_type: "image",
   },
-
-  filename: function (req, file, cb) {
-
-    const uniqueName =
-      Date.now() +
-      "-" +
-      Math.round(Math.random() * 1e9) +
-      path.extname(file.originalname);
-
-    cb(null, uniqueName);
-  },
-
 });
 
 

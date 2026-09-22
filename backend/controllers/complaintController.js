@@ -97,9 +97,8 @@ const createComplaint = async (req, res) => {
 
 
     if (req.file) {
-      imagePath =
-        `/uploads/${req.file.filename}`;
-    }
+  imagePath = req.file.path;
+}
 
 
     /* =========================

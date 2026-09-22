@@ -259,7 +259,7 @@ function ComplaintDetails() {
             <div className="complaint-image-container">
 
               <img
-                src={`https://campuscare-waov.onrender.com${complaint.image}`}
+                src={complaint.image}
                 alt="Complaint evidence"
                 className="complaint-image"
                 onLoad={() =>
