@@ -8,7 +8,7 @@ const Complaint = require("../models/Complaint");
 const predictCategory = async (text) => {
   try {
     const response = await fetch(
-  "https://campuscare-ai-nv1h.onrender.com/predict",
+      "https://campuscare-ai-nv1h.onrender.com/predict",
       {
         method: "POST",
 
@@ -23,14 +23,31 @@ const predictCategory = async (text) => {
     );
 
 
+    /* =========================
+       DEBUG AI RESPONSE
+    ========================= */
+
+    const responseText = await response.text();
+
+    console.log(
+      "AI response status:",
+      response.status
+    );
+
+    console.log(
+      "AI response body:",
+      responseText
+    );
+
+
     if (!response.ok) {
       throw new Error(
-        "AI prediction request failed"
+        `AI prediction request failed: ${response.status}`
       );
     }
 
 
-    const data = await response.json();
+    const data = JSON.parse(responseText);
 
 
     return {
@@ -187,6 +204,7 @@ const createComplaint = async (req, res) => {
 };
 
 
+
 /* =========================================================
    GET MY COMPLAINTS
 ========================================================= */
@@ -240,6 +258,7 @@ const getMyComplaints = async (
     });
   }
 };
+
 
 
 /* =========================================================
@@ -308,6 +327,7 @@ const getComplaintById = async (
     });
   }
 };
+
 
 
 /* =========================================================
