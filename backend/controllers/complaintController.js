@@ -26,28 +26,13 @@ const predictCategory = async (text) => {
     /* =========================
        DEBUG AI RESPONSE
     ========================= */
+if (!response.ok) {
+  throw new Error(
+    "AI prediction request failed"
+  );
+}
 
-    const responseText = await response.text();
-
-    console.log(
-      "AI response status:",
-      response.status
-    );
-
-    console.log(
-      "AI response body:",
-      responseText
-    );
-
-
-    if (!response.ok) {
-      throw new Error(
-        `AI prediction request failed: ${response.status}`
-      );
-    }
-
-
-    const data = JSON.parse(responseText);
+const data = await response.json();
 
 
     return {
