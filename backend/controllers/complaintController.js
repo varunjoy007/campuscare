@@ -1,59 +1,86 @@
 const Complaint = require("../models/Complaint");
+const { execFile } = require("child_process");
+const path = require("path");
 
 
 /* =========================================================
    AI CATEGORY PREDICTION
 ========================================================= */
 
-const predictCategory = async (text) => {
-  try {
-    const response = await fetch(
-      "https://campuscare-ai-nv1h.onrender.com/predict",
-      {
-        method: "POST",
+const predictCategory = (text) => {
+  return new Promise((resolve) => {
 
-        headers: {
-          "Content-Type": "application/json",
-        },
+    const pythonPath = path.join(
+  __dirname,
+  "..",
+  "..",
+  "ml",
+  "venv",
+  "Scripts",
+  "python.exe"
+);
 
-        body: JSON.stringify({
-          text,
-        }),
+    const scriptPath = path.join(
+  __dirname,
+  "..",
+  "..",
+  "ml",
+  "predict.py"
+);
+
+    execFile(
+      pythonPath,
+      [scriptPath, text],
+      (error, stdout, stderr) => {
+
+        if (error) {
+
+          console.error(
+            "AI prediction error:",
+            error.message
+          );
+
+          return resolve({
+            category: null,
+            confidence: null,
+          });
+
+        }
+
+        console.log(
+          "AI prediction output:",
+          stdout
+        );
+
+        const categoryMatch =
+          stdout.match(
+            /Predicted Category:\s*(.+)/
+          );
+
+        const confidenceMatch =
+          stdout.match(
+            /Confidence:\s*([\d.]+)/
+          );
+
+        resolve({
+          category:
+            categoryMatch
+              ? categoryMatch[1].trim()
+              : null,
+
+          confidence:
+            confidenceMatch
+              ? parseFloat(
+                  confidenceMatch[1]
+                )
+              : null,
+        });
+
       }
     );
 
-
-    /* =========================
-       DEBUG AI RESPONSE
-    ========================= */
-if (!response.ok) {
-  throw new Error(
-    "AI prediction request failed"
-  );
-}
-
-const data = await response.json();
-
-
-    return {
-      category: data.predictedCategory,
-      confidence: data.confidence,
-    };
-
-  } catch (error) {
-
-    console.error(
-      "AI prediction error:",
-      error.message
-    );
-
-    return {
-      category: null,
-      confidence: null,
-    };
-  }
+  });
 };
-
 
 
 /* =========================================================
